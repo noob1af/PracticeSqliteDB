@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupScreenActivity">
+
+    <EditText
+        android:id="@+id/name_signup"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round_shape_background"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/name_signup"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size" />
+
+    <EditText
+        android:id="@+id/email_signup"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/round_shape_background"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/email_signup"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size" />
+
+    <EditText
+        android:id="@+id/username_signup"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/round_shape_background"
+        android:ems="10"
+        android:hint="@string/username_signup"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/password_signup"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/round_shape_background"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/password_signup"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/round_shape_background"
+        android:text="@string/sign_up_button_text_signup"
+        android:backgroundTint="#17a783"
+        android:textSize="@dimen/text_size"
+        android:fontFamily="sans-serif"/>
+
+</RelativeLayout>
