@@ -10,4 +10,6 @@
     <string name="password_signup">password</string>
     <string name="sign_up_button_text_signup">SIGN UP</string>
     <string name="welcome_screen_text">WELCOME WELCOME</string>
+    <string name="confirm_password_signup">confirm password</string>
+    <string name="viewlist_list">ViewList</string>
 </resources>

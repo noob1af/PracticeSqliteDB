@@ -11,9 +11,9 @@ public class DisplayScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_screen);
 
-        String username = getIntent().getStringExtra("username");
+        String name = getIntent().getStringExtra("name");
 
-        TextView usernameTextView = (TextView) findViewById(R.id.username_display);
-        usernameTextView.setText(username);
+        TextView nameTextView = (TextView) findViewById(R.id.username_display);
+        nameTextView.setText(name);
     }
 }

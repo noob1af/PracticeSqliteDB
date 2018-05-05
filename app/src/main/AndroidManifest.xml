@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignupScreenActivity" />
-        <activity android:name=".DisplayScreenActivity"></activity>
+        <activity android:name=".DisplayScreenActivity" />
+        <activity android:name=".ListViewActivity"></activity>
     </application>
 
 </manifest>

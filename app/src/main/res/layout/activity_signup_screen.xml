@@ -37,7 +37,7 @@
         android:textSize="@dimen/text_size" />
 
     <EditText
-        android:id="@+id/username_signup"
+        android:id="@+id/password_signup"
         android:layout_width="@dimen/layout_width"
         android:layout_height="@dimen/layout_height"
         android:layout_alignParentTop="true"
@@ -45,12 +45,13 @@
         android:layout_marginTop="240dp"
         android:background="@drawable/round_shape_background"
         android:ems="10"
-        android:hint="@string/username_signup"
-        android:inputType="textPersonName"
-        android:textAlignment="center" />
+        android:hint="@string/password_signup"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size"/>
 
     <EditText
-        android:id="@+id/password_signup"
+        android:id="@+id/confirm_password_signup"
         android:layout_width="@dimen/layout_width"
         android:layout_height="@dimen/layout_height"
         android:layout_alignParentTop="true"
@@ -59,7 +60,7 @@
         android:background="@drawable/round_shape_background"
         android:ems="10"
         android:fontFamily="sans-serif"
-        android:hint="@string/password_signup"
+        android:hint="@string/confirm_password_signup"
         android:inputType="textPassword"
         android:textAlignment="center"
         android:textSize="@dimen/text_size" />
@@ -75,6 +76,21 @@
         android:text="@string/sign_up_button_text_signup"
         android:backgroundTint="#17a783"
         android:textSize="@dimen/text_size"
-        android:fontFamily="sans-serif"/>
+        android:fontFamily="sans-serif"
+        android:onClick="popUpMessage"/>
+
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/round_shape_background"
+        android:backgroundTint="#17a783"
+        android:textSize="@dimen/text_size"
+        android:fontFamily="sans-serif"
+        android:text="@string/viewlist_list"
+        android:onClick="gotoListViewScreen"/>
 
 </RelativeLayout>

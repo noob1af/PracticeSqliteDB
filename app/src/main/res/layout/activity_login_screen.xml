@@ -12,7 +12,7 @@
         android:layout_height="@dimen/layout_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/round_shape_background"
         android:fontFamily="sans-serif"
         android:hint="@string/username_input_hint"
@@ -26,7 +26,7 @@
         android:layout_height="@dimen/layout_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/round_shape_background"
         android:fontFamily="sans-serif"
         android:hint="@string/password_input_hint"
@@ -40,7 +40,7 @@
         android:layout_height="@dimen/layout_height"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/username"
-        android:layout_marginTop="370dp"
+        android:layout_marginTop="300dp"
         android:text="@string/log_in_button"
         android:fontFamily="sans-serif"
         android:textColor="#000000"
@@ -48,6 +48,21 @@
         android:backgroundTint="#17a783"
         android:background="@drawable/round_shape_background"
         android:onClick="gotoDisplayScreen"/>
+
+    <Button
+        android:id="@+id/signupButtonlogin"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/username"
+        android:layout_marginTop="400dp"
+        android:text="@string/sign_up_button_text_signup"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size"
+        android:backgroundTint="#17a783"
+        android:background="@drawable/round_shape_background"
+        android:onClick="gotoSignupScreen"/>
 
 
 </RelativeLayout>
